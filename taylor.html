@@ -1,0 +1,442 @@
+<html>
+    <head>
+        <title>James Mid Term Webpage project</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+            body{
+                margin: 0;
+            }
+            .topmenu{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: rgb(0, 0, 0);
+                font-family: 'Tilt Prism', cursive;
+                color: white;
+            }
+            .a1{
+                color: black;
+                width: fit-content;
+                background-color: white;
+                transition-duration: 0.5s;
+                padding: 30px 20px;
+                font-family: 'Oswald', sans-serif;
+            }
+            .a1:hover{
+                transform: scale(106%);
+                color: crimson;
+            }
+            h1{
+                transition-duration: 0.5s;
+            }
+            h1:hover{
+                color:rgb(125, 188, 58);
+                transform: scale(105%);
+                letter-spacing: 5px;
+            }
+            .h1class:hover{
+                color:rgb(125, 188, 58);
+            }
+            .menutable1{
+                background-color: aqua;
+                transition-duration: 0.5s;
+            }
+            .menutable1:hover{
+                transform: scale(105%);
+            }
+            .list1{
+                display: flex;
+                padding: 100px 0;
+                background-color: bisque;
+                align-items: center;
+                justify-content: space-around;
+                font-family: segoe script;
+            }
+            .allsingersimg{
+                size: 150px;
+                transition-duration: 0.5s;
+                width: 800px;
+                border-radius: 20px;
+                margin-right: 100px;
+            }
+            .allsingersimg:hover{
+                transform: scale(105%);
+            }
+            .whoistaylor{
+                display: flex;
+                font-weight: bolder;
+                font-size: 25px;
+                padding: 50px 0;
+                background-color: rgb(255, 255, 134);
+                font-family: 'Dosis', sans-serif;
+                justify-content: space-around;
+            }
+            .taylor1{
+                width: 400px;
+                border-radius: 500px;
+                transition-duration: 0.8s;
+            }
+            .taylor1:hover{
+                transform: scale(108%);
+            }
+
+            .taylordivp1{
+                display: flex;
+                color: black;
+                background-color: rgb(0, 216, 216);
+                font-family: 'Quicksand', sans-serif;
+                font-weight: bolder;
+                font-size: 25px;
+                justify-content: space-around;
+                padding: 50px 10px;
+                
+            }
+            font:hover{
+                color: rgb(218, 34, 34);
+            }
+            .taylor1img{
+                border-radius: 100px;
+                width: fit-content;
+                transition-duration: 0.7s;
+            }
+            .taylor1img:hover{
+                rotate: 360deg;
+            }
+            .taylorwithselenadiv{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(219, 93, 93);
+                padding: 70px 0;
+                font-size: 25px;
+                font-weight: bolder;
+                font-family: 'Varela Round', sans-serif;
+            }
+            .songsdiv{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: rgb(251, 251, 139);
+                padding: 70px 0;
+                color: rgb(95, 68, 229);
+                font-size: 25px;
+                font-weight: bolder;
+                font-family: 'Varela Round', sans-serif;
+                
+            }
+            u{
+               transition-duration: 0.5s; 
+            }
+            u:hover{
+                color: darkorange;
+                letter-spacing: 5px;
+                font-weight: bolder;
+                font-family: 'Tilt Prism', cursive;
+            }
+            .ol1{
+                color: rgb(238, 50, 22);
+            }
+            .ol1:hover{
+                color: aqua;
+            }
+            .songsimg{
+                border-radius: 40px;
+                width: 400px;
+                transition-duration: 0.7s;
+                
+            }
+            .songsimg:hover{
+                padding: 30px 0;
+                transform: scale(120%);
+            }
+            .taylorwithselena{
+                width: 500px;
+                border-radius: 1100px;
+                transition-duration: 0.9s;
+            }
+            .taylorwithselena:hover{
+                transform: scale(110%);
+            }
+            .link1{
+                font-size: 20px;
+                text-align: center;
+                background-color: lightpink;
+                margin: 0;
+                padding: 20px 0;
+            }
+            .taylorconclution{
+                background-color: black;
+                color: white;
+                margin: 0;
+                font-family: 'Quicksand', sans-serif;
+                text-align: center;
+                padding: 20px 0;
+                font-weight: bold;
+            }
+            .taylorconclution:hover{
+                color: rgb(255, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topmenu">
+            <h3 class="a1">artists</h3>
+            <h1 class="h1class">James Aloysius Music Collection</h1>
+            <h3 class="a1">Songs</h3>
+        </div>
+        <div class="list1">
+            <table border="7" align="center" class="menutable1">
+                <tr><th><a href="home.html">Home</a></th></tr>
+                <tr><th><a href="taylor.html">Taylor Swift</a></th></tr>
+                <tr><th><a href="selena.html">Selena Gomez</a></th></tr>
+                <tr><th><a href="justin.html">Justin Bieber</a></th></tr>
+                <tr><th><a href="edsheeran.html">Ed Sheeran</a></th></tr>
+                <tr><th><a href="shawnmendes.html">Shawn Mendes</a></th></tr>
+                <tr><th><a href="charlieputh.html">Charlie Puth</a></th></tr>
+            </table>
+            <img src="taylor.jpg" alt="" class="allsingersimg">
+        </div>
+        <div class="whoistaylor">
+            <img src="taylor1.jpg" alt="" class="taylor1">
+            <div  align="center">
+                <h1>Who Is Taylor Swift? </h1>
+                <p >
+                Musician Taylor Swift was earning renown as a country music singer by <br>
+                the age of 16. Early hits like <font color="blue">"Love Story"</font> and <font color="blue">"You Belong With Me"</font> <br>
+                appealed to country and pop fans alike and helped fuel the multi- <br>
+                platinum success of her albums, including the Grammy-winning Fearless <br>
+                (2008). Swift continued to top the charts with her 2014 studio effort <br>
+                1989, which featured the No. 1 singles <font color="blue">"Shake it Off"</font> and <font color="blue">"Blank Space"</font> <br>
+                and won Grammys for Album of the Year and Best Pop Vocal Album. Her <br>
+                follow-up albums reputation (2018) and Lover (2019) also achieved <br>
+                immense commercial success. <br>
+                </p>
+            </div>
+        </div>
+    <div class="taylordivp1">
+        <div >
+            <h1>Early Life</h1>
+            <p>Taylor Swift, in full Taylor Alison Swift, was born on <font color="white">December 13, 1989, in Reading, <br>
+            Pennsylvania. </font>Swift spent her early years on her family's Christmas tree <br>
+            farm in nearby Wyomissing. Her grandmother had been a professional <br>
+            opera singer, and Swift soon followed in her musical footsteps. By the age <br>
+            of 10, Swift was singing <font color="white">at a variety of local events, including fairs and <br>
+            contests.</font> She sang <font color="blue">"The Star-Spangled Banner"</font> at a Philadelphia 76ers <br>
+            basketball game at the age of 11, and <font color="white">began writing her own songs</font> and <br>
+            <font color="white"> learning guitar at 12 years old.</font><br> 
+        </p>
+        </div>
+        <img src="taylor at age 14.jpg" alt="" class="taylor1img">
+    </div>
+    <div class="taylorwithselenadiv">
+        <img src="taylor with selena.jpg" alt="" class="taylorwithselena">
+        <p>American singer-songwriter Taylor Swift has <font color="green">released 57 singles</font> as lead artist,
+        8 singles as a featured artist, and 40 promotional singles. She had sold <font color="green">over 150
+        million singles</font> worldwide by December 2016. According to the Recording Industry
+        Association of America (RIAA), Swift's digital singles have <font color="green">achieved 137.5 million
+        certified units,</font> based on sales and on-demand streaming, as of October 2022. With
+        <font color="green">189 chart</font> entries on the Billboard Hot 100 (including 9 number-ones and 40 top-
+        tens), Swift is the female artist with the most <font color="green">charted songs</font> in the United States.
+        </p>
+    </div>
+    <div class="songsdiv">
+        <img src="taylor4.jpg" alt="" class="songsimg">
+        <div class="songs">
+            <h3> <u>Taylor Swift songs lists</u></h3>
+            <ol class="ol1">
+                <li>    ...Ready For It? (2017)</li>
+                    <li>   'Tis the Damn Season (2020)</li>
+                        <li>   22 (2012)</li>
+                            <li>    A Place In This World (2006)</li>
+                    <li>    Afterglow (2019)</li>
+                        <li>    All Of The Girls You Loved Before (2023)</li>
+                            <li>    All Too Well (2012)</li>
+                                <li>   All You Had To Do Was Stay (2014)</li>
+                    <li>    Anti-Hero (2022)</li>
+                        <li>   August (2020)</li>
+                            <li>    Back To December (2010)</li>
+                                <li>    Bad Blood (2014)</li>
+                    <li>    Beautiful Ghosts (2019)</li>
+                        <li>   Begin Again (2012)</li>
+                            <li>    Bejeweled (2022)</li>
+                                <li>    Better Than Revenge (2010)</li>
+                    <li>    Betty (2020)</li>
+                        <li>    Bigger Than The Whole Sky (2022)</li>
+                            <li>    Blank Space (2014)</li>
+                                <li>    Breathe (2008)</li>
+                    <li>    Breathless (2010)</li>
+                        <li>     Bye Bye Baby (2021)</li>
+                            <li>     Call It What You Want (2017)</li>
+                                <li>    Cardigan (2020)</li>
+                    <li>    Carolina (2022)</li>
+                        <li>    Champagne Problems (2020)</li>
+                            <li>    Change (2008)</li>
+                                <li>   Christmas Tree Farm (2019)</li>
+                    <li>    Clean (2014)</li>
+                        <li>    Closure (2020)</li>
+                            <li>    Cold As You (2006)</li>
+                                <li>     Coney Island (2020)</li>
+                    <li>   Cornelia Street (2019)</li>
+                        <li>    Cowboy Like Me (2020)</li>
+                            <li>    Crazier (2009)</li>
+                                <li>           Cruel Summer (2019)</li>
+                    <li>           Dancing With Our Hands Tied (2017)</li>
+                        <li>            Daylight (2019)</li>
+                            <li>            Dear John (2010)</li>
+                                <li>           Death by a Thousand Cuts (2019)</li>
+                    <li>         Delicate (2017)</li>
+                        <li>         Don't Blame Me (2017)</li>
+                            <li>          Don't You (2021)</li>
+                                <li>             Dorothea (2020)</li>
+                    <li>            Dress (2017)</li>
+                        <li>            Enchanted (2010)</li>
+                            <li>            End Game (2017)</li>
+                                <li>              Epiphany (2020)</li>
+                    <li>             Evermore (2020)</li>
+                        <li>              Everything Has Changed (2012)</li>
+                            <li>             Exile (2020)</li>
+                                <li>            Eyes Open (2012)</li>
+                    <li>            False God (2019)</li>
+                        <li>          Fearless (2008)</li>
+                            <li>           Fifteen (2008)</li>
+                                <li>        Forever & Always (2008)</li>
+                    <li>       Forever Winter (2021)</li>
+                        <li>        Getaway Car (2017)</li>
+                            <li>        Glitch (2022)</li>
+                                <li>        Gold Rush (2020)</li>
+                                    <li>        Gorgeous (2017)</li>
+                                        <li>        Happiness (2020)</li>
+                    <li>        Haunted (2010)</li>
+                        <li>      Hey Stephen (2008)</li>
+                            <li>     Hoax (2020)</li>
+                    <li>       Holy Ground (2012)</li>
+                        <li>     I Almost Do (2012)</li>
+                            <li>    I Bet You Think About Me (2021)</li>
+                    <li>     I Did Something Bad (2017)</li>
+                        <li>   I Don't Wanna Live Forever (2016)</li>
+                    <li>   I Forgot That You Existed (2019)</li>
+                        <li>    I Knew You Were Trouble (2012)</li>
+                            <li>   I Know Places (2014)</li>
+                                <li>   I Think He Knows (2019)</li>
+                    <li>    I Wish You Would (2014)</li>
+                        <li>    If This Was a Movie (2011)</li>
+                    <li>    Illicit Affairs (2020)</li>
+                        <li>   Innocent (2010)</li>
+                    <li>   Invisible String (2020)</li>
+                        <li>    It's Nice to Have a Friend (2019)</li>
+                            <li>   It's Time To Go (2021)</li>
+                    <li>   Ivy (2020)</li>
+                    <li>    Jump Then Fall (2009)</li>
+                        <li>  Karma (2022)</li>
+                            <li>    King Of My Heart (2017)</li>
+                                <li>   Labyrinth (2022)</li>
+                    <li>     Last Kiss (2010)</li>
+                        <li>    Lavender Haze (2022)</li>
+                            <li>   London Boy (2019)</li>
+                    <li>   Long Live (2010)</li>
+                        <li>    Long Story Short (2020)</li>
+                    <li>    Look What You Made Me Do (2017)</li>
+                    <li>   Love Story (2008)</li>
+                        <li> Lover (2019)</li>
+                            <li>    Mad Woman (2020)</li>
+                    <li>    Marjorie (2020)</li>
+                    <li>  Maroon (2022)</li>
+                        <li>    Mary's Song (Oh My My My) (2006)</li>
+                    <li> Mastermind (2022)</li>
+                        <li> Me! (2019)</li>
+                            <li>    Mean (2010)</li>
+                    <li>    Message In A Bottle (2021)</li>
+                    <li>      Midnight Rain (2022)</li>
+                        <li>       Mine (2010)</li>
+                            <li>     Mirrorball (2020)</li>
+                    <li>     Miss Americana & the Heartbreak Prince (2019)</li>
+                        <li>   Mr. Perfectly Fine (2021)</li>
+                            <li>    My Tears Ricochet (2020)</li> 
+                                <li>     Never Grow Up (2010)</li>
+                    <li>      New Romantics (2014)</li>
+                        <li>      New Year's Day (2017)</li>
+                            <li>      No Body, No Crime (2020)</li>
+                                <li>      Nothing New (2021)</li>
+                                    <li>   Only The Young (2020)</li>
+                    <li>   Our Song (2006)</li>
+                    <li>     Ours (2011)</li>
+                        <li>      Out Of The Woods (2014)</li>
+                            <li>      Paper Rings (2019)</li>
+                                <li>    Paris (2022)</li>
+                    <li>      Picture To Burn (2006)</li>
+                        <li>    Question...? (2022)</li>
+                            <li>      Red (2012)</li>
+                    <li>      Right Where You Left Me (2021)</li>
+                        <li>  Ronan (2012)</li>
+                            <li>     Run (2021)</li>
+                    <li>     Sad Beautiful Tragic (2012)</li>
+                    <li>   Safe And Sound (2011)</li>
+                        <li>  Seven (2020)</li>
+                    <li>   Shake It Off (2014)</li>
+                        <li>  Should've Said No (2006)</li>
+                            <li>   Snow On The Beach (2022)</li>
+                    <li>    So It Goes... (2017)</li>
+                        <li>  Soon You'll Get Better (2019)</li>
+                            <li>  Sparks Fly (2010)</li>
+                    <li>   Speak Now (2010)</li>
+                        <li>   Starlight (2012)</li>
+                    <li>   State of Grace (2012)</li>
+                        <li>  Stay Beautiful (2006)</li>
+                            <li>     Stay Stay Stay (2012)</li>
+                    <li>  Style (2014)</li>
+                        <li>     Superman (2011)</li>
+                            <li>     Sweet Nothing (2022)</li>
+                    <li>     Sweeter Than Fiction (2013)</li>
+                        <li>    Teardrops on My Guitar (2006)</li>
+                            <li>      Tell Me Why (2008)</li>
+                    <li>   That's When (2021)</li>
+                        <li>    The 1 (2020)</li>
+                        <li>The Archer (2019)</li>
+                    <li>    The Best Day (2008)</li>
+                    <li>The Great War (2022)</li>
+                    <li>     The Lakes (2020)</li>
+                        <li>      The Last Great American Dynasty (2020)</li>
+                            <li>   The Last Time (2012)</li>
+                    <li>   The Lucky One (2012)</li>
+                    <li>     The Man (2019)</li>
+                        <li>   The Moment I Knew (2012)</li>
+                    <li>      The Outside (2006)</li>
+                        <li>    The Story of Us (2010)</li>
+                            <li>    The Very First Night (2021)</li>
+                                <li>   The Way I Loved You (2008)</li>
+                    <li>    This Is Me Trying (2020)</li>
+                        <li> This Is Why We Can't Have Nice Things (2017)</li>
+                            <li>   This Love (2014)</li>
+                    <li> Tied Together With A Smile (2006)</li>
+                        <li>   Tim McGraw (2006)</li>
+                            <li>  Today Was a Fairytale (2010)</li>
+                    <li>    Tolerate It (2020)</li>
+                        <li>   Treacherous (2012)</li>
+                            <li>   Vigilante S-- t (2022)</li>
+                    <li>    We Are Never Ever Getting Back Together (2012)</li>
+                        <li>    We Were Happy (2021)</li>
+                    <li>   Welcome to New York (2014)</li>
+                        <li>  White Horse (2008)</li>
+                            <li>  Wildest Dreams (2014)</li>
+                                <li>  Willow (2020)</li>
+                                    <li> Wonderland (2014)</li>
+                                        <li> Would've, Could've, Should've (2022)</li>
+                                            <li> You All Over Me (2021)</li>
+                                                <li>   You Are In Love (2014)</li>
+                                                    <li>      You Belong With Me (2008)</li>
+                    <li>   You Need To Calm Down (2019)</li>
+                        <li>   You're Not Sorry (2008)</li>
+                            <li>   You're On Your Own, Kid (2022)</li>
+            </ol>
+
+        </div>
+    </div>
+    <p class="link1"><a href="https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g">👉click me to go <br>
+         taylor swift's youtube channel!!👈 </a></p>
+    <p class="taylorconclution">Thank you very much for visiting taylor Swift's page.😘😘🤩</p>
+    </body>
+</html>
